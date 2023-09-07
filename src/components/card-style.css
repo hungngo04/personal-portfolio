@@ -1,0 +1,17 @@
+a {
+    color: inherit;  /* Inherits color from parent */
+    text-decoration: none;  /* Removes underline */
+  }
+  
+  a:hover,
+  a:focus,
+  a:active {
+    color: inherit;  /* Inherits hover, focus, and active color from parent */
+    text-decoration: none;  /* Removes underline on hover, focus, and active */
+  }
+
+  .proj-imgbx img {
+    width: 100%; /* Set width to fill the element */
+    height: 200px; /* Set a specific height */
+    object-fit: cover; /* Crop and maintain aspect ratio */
+  }

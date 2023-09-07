@@ -1,0 +1,22 @@
+.jobDesc {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+.jobDesc ul {
+padding-left: 20px;
+}
+
+.jobDesc ul li {
+text-align: left;
+padding: 10px;
+border-radius: 5px;
+line-height: 1.6;
+}
+
+@media (max-width: 768px) { 
+    #pills-tab .nav-link {
+      padding: .5rem 1rem;
+    }
+  }
+  
